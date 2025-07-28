@@ -1,5 +1,5 @@
 window.onload = function() {
-  alert("ようこそ！このページへ！");
+  alert("ようこそ！紹介ページへ！");
 };
 
 window.addEventListener("DOMContentLoaded", () => {
@@ -11,7 +11,7 @@ window.addEventListener("DOMContentLoaded", () => {
         if (entry.isIntersecting) {
           entry.target.classList.add("fade-in");
 
-          // 1秒後にクラスを削除して再びフェードイン可能にする
+          
           setTimeout(() => {
             entry.target.classList.remove("fade-in");
           }, 1000);
